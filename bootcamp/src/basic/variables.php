@@ -1,3 +1,5 @@
+hola
+
 <?php
 
 // Variables primitivas
@@ -20,3 +22,5 @@ $array_asociativo = [
   'email' => 'carlos@correo.com',
   'ciudad' => 'Málaga'
 ];
+
+?>

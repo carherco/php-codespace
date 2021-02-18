@@ -3,14 +3,14 @@
 use PHPUnit\Framework\TestCase;
 use function PHPUnit\Framework\assertEquals;
 
-require_once('./src/ejercicios.php');
+require_once('./bootcamp/src/ejercicios.php');
 
 final class EjercicioFindMaxTest extends TestCase
 {
-  // Programar una función que devuelva el número mayor de un array
+  // Programar una función que devuelva el número 
+  // mayor de un array
   public function testFindMaxTodosPositivos(): void
   {
-    
     $input = [6, 2, 17, 9];
     assertEquals(17, findMax($input));
   }

@@ -3,7 +3,7 @@
 use PHPUnit\Framework\TestCase;
 use function PHPUnit\Framework\assertEquals;
 
-require_once('./src/ejercicios.php');
+require_once('./bootcamp/src/ejercicios.php');
 
 final class EjercicioReverseTest extends TestCase
 {
@@ -19,6 +19,13 @@ final class EjercicioReverseTest extends TestCase
   {
     $input = "Hola qué tal";
     $expectedOutput = "tal qué Hola";
+    assertEquals($expectedOutput, reverseWords($input));
+  }
+
+  public function testReverseWords2(): void
+  {
+    $input = "Hola qué tal ¿cómo estás? yo muy bien";
+    $expectedOutput = "bien muy yo estás? ¿cómo tal qué Hola";
     assertEquals($expectedOutput, reverseWords($input));
   }
 

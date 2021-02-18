@@ -7,7 +7,8 @@ require_once('./src/ejercicios.php');
 
 final class EjercicioFilterAgeTest extends TestCase
 {
-  // Programar un método que devuelva un array con las personas que sean mayores o igual a una edad dada
+  // Programar un método que devuelva un array con las 
+  // personas que sean mayores o igual a una edad dada
   public function testFilterAge(): void
   {
     $people = [

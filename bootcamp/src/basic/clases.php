@@ -21,7 +21,7 @@ class Archer {
     // ...
   }
 
-  public function healSelf($healPoints) {
+  private function healSelf($healPoints) {
     $this->lifePoints += $healPoints;
   }
 }

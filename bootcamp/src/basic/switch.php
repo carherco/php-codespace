@@ -1,13 +1,15 @@
 <?php
 
+$option = "A";
+
 switch($optionId){
-  case (1):
+  case ("A"):
     $optionText = "Leer menú";
     break;
-  case (2):
+  case ("B"):
     $optionText = "Editar menú";
     break;
-  case (3):
+  case ("C"):
     $optionText = "Eliminar menú";
     break;
   default:

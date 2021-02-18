@@ -3,11 +3,12 @@
 use PHPUnit\Framework\TestCase;
 use function PHPUnit\Framework\assertEquals;
 
-require_once('./src/ejercicios.php');
+require_once('./bootcamp/src/ejercicios.php');
 
 final class EjercicioAgeAverageTest extends TestCase
 {
-  // Programar un método que calcule la media de las edades de un array de personas
+  // Programar un método que calcule la media de las edades 
+  // de un array de personas
   public function testAverageAge(): void
   {
     $people = [
